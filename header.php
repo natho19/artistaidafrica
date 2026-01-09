@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
 	<meta charset="UTF-8" />
@@ -10,7 +10,7 @@
 
 	<title>Helpo HTML Template</title>
 
-	<link rel="shortcut icon" href="img/favicon.ico" />
+	<link rel="shortcut icon" href="<?= AAA_IMG_DIR . 'favicon.ico' ?>" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -143,9 +143,12 @@
 						<div class="dropdown-trigger d-none d-sm-block">
 							<div class="dropdown-trigger__item"></div>
 						</div>
-						<div class="header-logo"><a class="header-logo__link" href="index.html"><img
-									class="header-logo__img logo--light" src="img/logo_white.png" alt="logo" /><img
-									class="header-logo__img logo--dark" src="img/logo_dark.png" alt="logo" /></a></div>
+						<div class="header-logo">
+							<a class="header-logo__link" href="index.html">
+								<img class="header-logo__img logo--light" src="<?= AAA_IMG_DIR . 'logo_white.png' ?>" alt="logo" />
+								<img class="header-logo__img logo--dark" src="<?= AAA_IMG_DIR . 'logo_dark.png' ?>" alt="logo" />
+							</a>
+						</div>
 					</div>
 					<div class="col-auto">
 						<!-- main menu start-->
