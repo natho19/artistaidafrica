@@ -57,7 +57,7 @@
 <!-- our mission end-->
 
 <!-- our statistics start-->
- <?php if (get_field('statistics_display')) : ?>
+<?php if (get_field('statistics_display')) : ?>
 	<section class="section statistics">
 		<div class="container">
 			<?php if (get_field('statistics_title')) : ?>
@@ -141,7 +141,7 @@
 <!-- team end-->
 
 <!-- donors start-->
- <?php if (get_field('donors_display')) : ?>
+<?php if (get_field('donors_display')) : ?>
 	<section class="section donors">
 		<div class="container">
 			<?php if (get_field('donors_title')) : ?>
