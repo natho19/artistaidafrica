@@ -7,7 +7,7 @@
 		<div class="container">
 			<div class="row offset-margin">
 				<?php while (have_posts()) : the_post(); ?>
-					<?php get_template_part('parts/content-post'); ?>
+					<?php get_template_part('parts/content-new'); ?>
 				<?php endwhile; ?>
 			</div>
 			<div class="row">
