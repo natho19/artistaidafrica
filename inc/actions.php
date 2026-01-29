@@ -2,6 +2,7 @@
 
 function aaa_add_supports() {
     add_theme_support('title-tag');
+    add_theme_support('post-thumbnails');
 }
 
 function aaa_remove_post_type_supports() {
