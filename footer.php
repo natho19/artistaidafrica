@@ -19,12 +19,7 @@
 							</li>
 							<li class="footer-socials__item">
 								<a class="footer-socials__link" href="#">
-									<i class="fa fa-twitter" aria-hidden="true"></i>
-								</a>
-							</li>
-							<li class="footer-socials__item">
-								<a class="footer-socials__link" href="#">
-									<i class="fa fa-google-plus" aria-hidden="true"></i>
+									<i class="fa fa-linkedin" aria-hidden="true"></i>
 								</a>
 							</li>
 							<li class="footer-socials__item">
@@ -38,9 +33,9 @@
 					<div class="col-sm-6 col-lg-3">
 						<h4 class="footer__title">Contacts</h4>
 						<div class="footer-contacts">
-							<p class="footer-contacts__address">Elliott Ave, Parkville VIC 3052, Melbourne Canada</p>
-							<p class="footer-contacts__phone">Phone: <a href="tel:+31859644725">+31 85 964 47 25</a></p>
-							<p class="footer-contacts__mail">Email: <a href="mailto:support@helpo.org">support@helpo.org</a></p>
+							<p class="footer-contacts__address">ACP Kwabenya, High Tension Lane</p>
+							<p class="footer-contacts__phone">Phone: <a href="tel:+233308092057">+233 30 80 92 057</a></p>
+							<p class="footer-contacts__mail">Email: <a href="mailto:artistaidafrica@gmail.com">artistaidafrica@gmail.com</a></p>
 						</div>
 					</div>
 					<div class="col-sm-6 col-lg-3">
@@ -48,26 +43,21 @@
 						<!-- footer nav start-->
 						<nav>
 							<ul class="footer-menu">
-								<li class="footer-menu__item footer-menu__item--active">
-									<a class="footer-menu__link" href="index.html">Home</a>
+								<!-- <li class="footer-menu__item footer-menu__item--active"> for active page -->
+								<li class="footer-menu__item">
+									<a class="footer-menu__link" href="http://localhost/artistaidafrica/">Home</a>
 								</li>
 								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Blog</a>
+									<a class="footer-menu__link" href="http://localhost/artistaidafrica/about/">About</a>
 								</li>
 								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="about.html">About</a>
+									<a class="footer-menu__link" href="http://localhost/artistaidafrica/category/news/">News</a>
 								</li>
 								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Contacts</a>
+									<a class="footer-menu__link" href="http://localhost/artistaidafrica/gallery/">Gallery</a>
 								</li>
 								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Pages</a>
-								</li>
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="#">Elements</a>
-								</li>
-								<li class="footer-menu__item">
-									<a class="footer-menu__link" href="causes.html">Causes</a>
+									<a class="footer-menu__link" href="http://localhost/artistaidafrica/contact/">Contact</a>
 								</li>
 							</ul>
 						</nav>
@@ -75,7 +65,7 @@
 					</div>
 					<div class="col-sm-6 col-lg-3">
 						<h4 class="footer__title">Donate</h4>
-						<p>Help Us Change the Lives of Children in World</p>
+						<p>Support ArtistAid Africa by donating, partnering with us, or sharing our mission</p>
 						<a class="button footer__button button--filled" href="#">Donate</a>
 					</div>
 				</div>
@@ -89,7 +79,7 @@
 							<span class="footer-privacy__divider">|</span>
 							<a class="footer-privacy__link" href="#">Terms and Conditions</a>
 							<span class="footer-privacy__divider">|</span>
-							<a class="footer-privacy__link" href="http://localhost/artistaidafrica/faq/">FAQ</a>
+							<a class="footer-privacy__link" href="#">FAQ</a>
 						</div>
 					</div>
 				</div>

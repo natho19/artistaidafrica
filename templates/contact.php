@@ -16,7 +16,7 @@
 						</svg>
 					</div>
 					<div class="icon-item__text">
-						<p>Adress: Elliott Ave, Parkville VIC 3052, Melbourne Canada</p>
+						<p>Adress: ACP Kwabenya, High Tension Lane</p>
 					</div>
 				</div>
 			</div>
@@ -28,7 +28,7 @@
 						</svg>
 					</div>
 					<div class="icon-item__text">
-						<p>Phone: <a class="icon-item__link" href="tel:+31859644725">+ 31 85 964 47 25</a></p>
+						<p>Phone: <a class="icon-item__link" href="tel:+233308092057">+233 30 80 92 057</a></p>
 					</div>
 				</div>
 			</div>
@@ -40,7 +40,7 @@
 						</svg>
 					</div>
 					<div class="icon-item__text">
-						<p>Email: <a class="icon-item__link" href="mailto:support@helpo.org">support@helpo.org</a></p>
+						<p>Email: <a class="icon-item__link" href="mailto:artistaidafrica@gmail.com">artistaidafrica@gmail.com</a></p>
 					</div>
 				</div>
 			</div>

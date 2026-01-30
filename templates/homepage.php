@@ -66,22 +66,17 @@
     <ul class="promo-socials">
         <li class="promo-socials__item">
             <a class="promo-socials__link" href="#">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
-        </li>
-        <li class="promo-socials__item">
-            <a class="promo-socials__link" href="#">
-                <i class="fa fa-google-plus" aria-hidden="true"></i></a>
-            </a>
-        </li>
-        <li class="promo-socials__item">
-            <a class="promo-socials__link" href="#">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-        </li>
-        <li class="promo-socials__item">
-            <a class="promo-socials__link" href="#">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="promo-socials__item">
+            <a class="promo-socials__link" href="#">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="promo-socials__item">
+            <a class="promo-socials__link" href="#">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
         </li>
     </ul>
@@ -95,11 +90,11 @@
             </a>
             <div class="promo-pannel__phones">
                 <p class="promo-pannel__title">Phone numbers</p>
-                <a class="promo-pannel__link" href="tel:+180012345678">+ 1800 - 123 456 78</a>
+                <a class="promo-pannel__link" href="tel:+233308092057">+233 30 80 92 057</a>
             </div>
             <div class="promo-pannel__email">
                 <p class="promo-pannel__title">Email</p>
-                <a class="promo-pannel__link" href="mailto:support@helpo.org">support@helpo.org</a>
+                <a class="promo-pannel__link" href="mailto:artistaidafrica@gmail.com">artistaidafrica@gmail.com</a>
             </div>
         </div>
     </div>
@@ -245,7 +240,7 @@
 <!-- section end-->
 
 <!-- section start-->
-<section class="section no-padding-top no-padding-bottom">
+<!-- <section class="section no-padding-top no-padding-bottom">
     <div class="row no-gutters">
         <div class="col-xl-6">
             <div class="action-block">
@@ -268,11 +263,11 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- section end-->
 
 <!-- testimonials style-1 start-->
-<section class="section testimonials">
+<!-- <section class="section testimonials">
 	<div class="container">
 		<div class="row align-items-end margin-bottom">
 			<div class="col-lg-8 col-xl-7 offset-xl-1">
@@ -281,14 +276,12 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-xl-3">
-				<!-- slider nav start-->
 				<div class="slider__nav testimonials-style-1__nav">
 					<div class="slider__arrows">
 						<div class="slider__prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
 						<div class="slider__next"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
 					</div>
 				</div>
-				<!-- slider nav end-->
 			</div>
 		</div>
 		<div class="row">
@@ -326,7 +319,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 <!-- testimonials style-1 end-->
 
 <!-- section start-->

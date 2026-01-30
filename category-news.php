@@ -10,9 +10,8 @@
 					<?php get_template_part('parts/content-new'); ?>
 				<?php endwhile; ?>
 			</div>
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-12">
-					<!-- pagination start-->
 					<ul class="pagination">
 						<li class="pagination__item pagination__item--prev">
 							<i class="fa fa-angle-left" aria-hidden="true"></i>
@@ -30,9 +29,8 @@
 							<i class="fa fa-angle-right" aria-hidden="true"></i>
 						</li>
 					</ul>
-					<!-- pagination end-->
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</section>
 <?php endif; ?>

@@ -12,7 +12,7 @@
 			<div class="col-12">
 				<div class="heading heading--primary heading--center">
 					<h2 class="heading__title"><span>Why help us</span></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quidem enim, ab assumenda rerum ullam quisquam minus aliquam natus voluptates voluptatibus ipsam autem, vero, modi aliquid saepe iste incidunt! Aperiam.</p>
+					<p>Supporting ArtistAid Africa means investing in the power of art to create lasting social, cultural, and economic impact. Your support helps empower African artists, strengthen local communities, preserve cultural heritage, and address critical issues such as education, gender equality, environmental sustainability, and youth empowerment. By helping us, you contribute to building a more inclusive and sustainable creative ecosystem across Africa.</p>
 				</div>
 			</div>
 		</div>
@@ -27,7 +27,7 @@
             <div class="col-lg-4">
                 <div class="heading heading--primary">
                     <h2 class="heading__title"><span>Support us</span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus ipsam rem quam deserunt in quo facilis reprehenderit earum molestias quod!</p>
+                    <p>Support ArtistAid Africa by donating, partnering with us, or sharing our mission. Every contribution helps empower artists, support youth programs, and drive meaningful community impact through art. Thank you for believing in our vision and helping us create positive change across Africa.</p>
                 </div>
             </div>
             <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4">

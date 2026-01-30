@@ -25,20 +25,22 @@
 				</span>
 				<div class="aside-dropdown__item d-lg-none d-block">
 					<ul class="aside-menu">
-						<li class="aside-menu__item aside-menu__item--active">
+						<!-- <li class="aside-menu__item aside-menu__item--active"> for page active -->
+						<li class="aside-menu__item">
 							<a class="aside-menu__link" href="http://localhost/artistaidafrica/"><span>Home</span></a>
 						</li>
 						<li class="aside-menu__item">
 							<a class="aside-menu__link" href="http://localhost/artistaidafrica/about/"><span>About</span></a>
 						</li>
-						<li class="aside-menu__item aside-menu__item--has-child">
+						<!-- <li class="aside-menu__item aside-menu__item--has-child">
 							<a class="aside-menu__link" href="#"><span>Blog</span></a>
-							<!-- sub menu start-->
 							<ul class="aside-menu__sub-list">
 								<li><a href="http://localhost/artistaidafrica/category/news/"><span>News</span></a></li>
 								<li><a href="http://localhost/artistaidafrica/category/events/"><span>Events</span></a></li>
 							</ul>
-							<!-- sub menu end-->
+						</li> -->
+						<li class="aside-menu__item">
+							<a class="aside-menu__link" href="http://localhost/artistaidafrica/category/news/"><span>News</span></a>
 						</li>
 						<li class="aside-menu__item">
 							<a class="aside-menu__link" href="http://localhost/artistaidafrica/gallery/"><span>Gallery</span></a>
@@ -74,20 +76,22 @@
 						<!-- main menu start-->
 						<nav>
 							<ul class="main-menu">
-								<li class="main-menu__item main-menu__item--active">
+								<!-- <li class="main-menu__item main-menu__item--active"> for page active -->
+								<li class="main-menu__item">
 									<a class="main-menu__link" href="http://localhost/artistaidafrica/"><span>Home</span></a>
 								</li>
 								<li class="main-menu__item">
 									<a class="main-menu__link" href="http://localhost/artistaidafrica/about/"><span>About</span></a>
 								</li>
-								<li class="main-menu__item main-menu__item--has-child">
+								<!-- <li class="main-menu__item main-menu__item--has-child">
 									<a class="main-menu__link" href="#"><span>Blog</span></a>
-									<!-- sub menu start-->
 									<ul class="main-menu__sub-list">
 										<li><a href="http://localhost/artistaidafrica/category/news/"><span>News</span></a></li>
 										<li><a href="http://localhost/artistaidafrica/category/events/"><span>Events</span></a></li>
 									</ul>
-									<!-- sub menu end-->
+								</li> -->
+								<li class="main-menu__item">
+									<a class="main-menu__link" href="http://localhost/artistaidafrica/category/news/"><span>News</span></a>
 								</li>
 								<li class="main-menu__item">
 									<a class="main-menu__link" href="http://localhost/artistaidafrica/gallery/"><span>Gallery</span></a>
