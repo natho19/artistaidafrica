@@ -36,12 +36,17 @@
                     <div class="pricing-item__price">Mobile Money</div>
                     <ul class="pricing-item__list">
                         <li>MTN MoMo</li>
-                        <li>Orange Money</li>
+                        <li>Telecel Money</li>
+                        <li>AT Money</li>
                         <li>Instant transfer</li>
                     </ul>
                     <p class="pricing-item__info">
                         <span>Mobile:</span>
                         <strong>+233 54 2162 708</strong>
+                    </p>
+                    <p class="pricing-item__info">
+                        <span>Operator:</span>
+                        <strong>MTN</strong>
                     </p>
                 </div>
             </div>
@@ -53,10 +58,15 @@
                         <li>Secure transfer</li>
                         <li>Bank account</li>
                         <li>Manual confirmation</li>
+                        <li>Available with Visa</li>
                     </ul>
                     <p class="pricing-item__info">
                         <span>Account:</span>
                         <strong>4769 8696 8666 5317</strong>
+                    </p>
+                     <p class="pricing-item__info">
+                        <span>Bank:</span>
+                        <strong>Ecobank</strong>
                     </p>
                 </div>
             </div>
