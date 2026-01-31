@@ -7,9 +7,7 @@
     <div class="promo-slider">
         <div class="promo-slider__item promo-slider__item--style-1">
             <picture>
-                <source srcset="<?= AAA_IMG_DIR . 'promo_1.jpg' ?>" media="(min-width: 835px)" />
-                <source srcset="<?= AAA_IMG_DIR . '834promo_1.jpg' ?>" media="(min-width: 376px)" />
-                <img class="img--bg" src="<?= AAA_IMG_DIR . '375promo_1.jpg' ?>" alt="img" />
+                <img class="img--bg" src="<?= AAA_IMG_DIR . 'promo_2.png' ?>" alt="img" />
             </picture>
             <div class="container">
                 <div class="row">
@@ -18,41 +16,14 @@
                             <div class="align-container__item">
                                 <div class="promo-slider__wrapper-1">
                                     <h2 class="promo-slider__title">
-                                        <span>We help all people in need</span>
+                                        <span>Empowering African Arts</span>
                                     </h2>
                                 </div>
                                 <div class="promo-slider__wrapper-2">
-                                    <p class="promo-slider__subtitle">Gray eel-catfish longnose whiptail catfish smalleye squaretail queen danio unicorn fish shortnose greeneye fusilier fish silver carp nibbler sharksucker tench lookdown catfish</p>
+                                    <p class="promo-slider__subtitle">ArtistAid Africa uses the transformative power of art to empower artists, inspire social change, and promote sustainable development across the continent.</p>
                                 </div>
                                 <div class="promo-slider__wrapper-3">
-                                    <a class="button promo-slider__button button--primary" href="#">Discover</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="promo-slider__item promo-slider__item--style-2">
-            <picture>
-                <source srcset="<?= AAA_IMG_DIR . 'promo_2.jpg' ?>" media="(min-width: 835px)" />
-                <source srcset="<?= AAA_IMG_DIR . '834promo_2.jpg' ?>" media="(min-width: 376px)" />
-                <img class="img--bg" src="<?= AAA_IMG_DIR . '375promo_2.jpg' ?>" alt="img" />
-            </picture>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-7">
-                        <div class="align-container">
-                            <div class="align-container__item">
-                                <div class="promo-slider__wrapper-1">
-                                    <h2 class="promo-slider__title">
-                                    <span>Our Helping</span>
-                                </div>
-                                <div class="promo-slider__wrapper-2">
-                                    <p class="promo-slider__subtitle">Gray eel-catfish longnose whiptail catfish smalleye squaretail queen danio unicorn fish shortnose greeneye fusilier fish silver carp nibbler sharksucker tench lookdown catfish</p>
-                                </div>
-                                <div class="promo-slider__wrapper-3">
-                                    <a class="button promo-slider__button button--primary" href="#">Discover</a>
+                                    <a class="button promo-slider__button button--primary" href="http://localhost/artistaidafrica/introducing-artistaid-africa-empowering-communities-through-art/">Discover</a>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +32,6 @@
             </div>
         </div>
     </div>
-    
     <!-- promo socials start-->
     <ul class="promo-socials">
         <li class="promo-socials__item">
@@ -101,7 +71,7 @@
     <!-- promo pannel end-->
 
     <!-- slider nav start-->
-    <div class="slider__nav slider__nav--promo">
+    <!-- <div class="slider__nav slider__nav--promo">
         <div class="promo-slider__count"></div>
         <div class="slider__arrows">
             <div class="slider__prev">
@@ -111,7 +81,7 @@
                 <i class="fa fa-chevron-right" aria-hidden="true"></i>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- slider nav end-->
 </section>
 <!-- promo end-->
@@ -124,8 +94,8 @@
 				<div class="heading heading--primary">
 					<h2 class="heading__title"><span>About Artist Aid Africa</span></h2>
 				</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quidem laboriosam deleniti aliquam magnam blanditiis deserunt. Hic dolores dicta saepe quam commodi delectus vitae earum repellat. Nostrum error numquam magnam?</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus ipsum molestias hic quae, nobis vero recusandae adipisci repudiandae dolore architecto quasi porro officia voluptatum, corporis libero ullam natus quos laborum, nesciunt quidem ex assumenda! Sint quae non natus vitae provident doloremque beatae quidem delectus nisi cumque? Aliquam ab nulla ex?</p>
+                <p>ArtistAid Africa is a nonprofit organization dedicated to empowering African artists and communities through the transformative power of art. Based in Ghana, we use creativity as a tool for social change, cultural preservation, and sustainable development.</p>
+                <p>By providing training, mentorship, and access to resources and platforms, we support artists while addressing key societal challenges such as education, gender equality, human rights, and environmental sustainability.</p>
                 <a class="button button--primary" href="http://localhost/artistaidafrica/about/">More About</a>
 			</div>
 			<div class="col-lg-6 col-xl-5 offset-xl-1">
@@ -149,26 +119,6 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-6 col-md-4 col-lg-3">
-				<div class="icon-item">
-					<div class="icon-item__img">
-                        <img src="<?= AAA_IMG_DIR . 'svg/icons_3/2_animal_shelter.svg' ?>" alt="icon" />
-                    </div>
-					<div class="icon-item__text">
-						<p>Medicine Help</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-6 col-md-4 col-lg-3">
-				<div class="icon-item">
-					<div class="icon-item__img">
-                        <img src="<?= AAA_IMG_DIR . 'svg/icons_3/2_beggar.svg' ?>" alt="icon" />
-                    </div>
-					<div class="icon-item__text">
-						<p>We Build and Create</p>
-					</div>
-				</div>
-			</div>
 			<div class="col-6 col-md-4 col-lg-3">
 				<div class="icon-item">
 					<div class="icon-item__img">
@@ -206,26 +156,6 @@
 					</div>
 					<div class="icon-item__text">
 						<p>Fresh Food</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-6 col-md-4 col-lg-3">
-				<div class="icon-item">
-					<div class="icon-item__img">
-                        <img src="<?= AAA_IMG_DIR . 'svg/icons_3/2_phone_donate.svg' ?>" alt="icon" />
-					</div>
-					<div class="icon-item__text">
-						<p>Best Volounteers</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-6 col-md-4 col-lg-3">
-				<div class="icon-item">
-					<div class="icon-item__img">
-                        <img src="<?= AAA_IMG_DIR . 'svg/icons_3/2_piggy_bank.svg' ?>" alt="icon" />
-					</div>
-					<div class="icon-item__text">
-						<p>Donation Around the World</p>
 					</div>
 				</div>
 			</div>
@@ -334,7 +264,7 @@
 		<div class="row">
 			<div class="col-12 text-center">
 				<h2 class="action-section__title">Any information?</h2>
-				<p class="action-section__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas reprehenderit dicta facilis unde? Adipisci provident quisquam autem maiores quis ipsum in sequi tenetur neque cum!</p>
+				<p class="action-section__text">Have questions or want to learn more about ArtistAid Africa? We're here to help. Reach out to us for partnership opportunities, donations, or general inquiries, and let's work together to empower artists and communities through art.</p>
                 <a class="action-section__button button button--primary" href="http://localhost/artistaidafrica/contact/">Contact Us</a>
 			</div>
 		</div>

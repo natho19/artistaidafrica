@@ -56,7 +56,7 @@
                     </ul>
                     <p class="pricing-item__info">
                         <span>Account:</span>
-                        <strong>XXXX XXXX XXXX XXXX</strong>
+                        <strong>4769 8696 8666 5317</strong>
                     </p>
                 </div>
             </div>
