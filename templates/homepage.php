@@ -3,115 +3,99 @@
 <?php get_header() ?>
 
 <!-- promo start-->
-<section class="promo">
-    <div class="promo-slider">
-        <div class="promo-slider__item promo-slider__item--style-1">
-            <picture>
-                <img class="img--bg" src="<?= AAA_IMG_DIR . 'slide.png' ?>" alt="img" />
-            </picture>
+<?php if (have_rows('slides')) : ?>
+    <section class="promo">
+        <div class="promo-slider">
+            <?php while (have_rows('slides')) : the_row(); ?>
+                <div class="promo-slider__item promo-slider__item--style-1">
+                    <?php 
+                    $background = get_sub_field('background'); 
+                    if (!empty($background)) : ?>
+                        <picture>
+                            <img class="img--bg" src="<?= esc_url($background['url']); ?>" alt="<?= esc_attr($background['alt']); ?>" />
+                        </picture>
+                    <?php endif; ?>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="align-container">
-                            <div class="align-container__item">
-                                <div class="promo-slider__wrapper-1">
-                                    <h2 class="promo-slider__title">
-                                        <span>Empowering African Arts</span>
-                                    </h2>
-                                </div>
-                                <div class="promo-slider__wrapper-2">
-                                    <p class="promo-slider__subtitle">ArtistAid Africa uses the transformative power of art to empower artists, inspire social change, and promote sustainable development across the continent.</p>
-                                </div>
-                                <div class="promo-slider__wrapper-3">
-                                    <a class="button promo-slider__button button--primary" href="http://localhost/artistaidafrica/introducing-artistaid-africa-empowering-communities-through-art/">Discover</a>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="align-container">
+                                    <div class="align-container__item">
+                                        <?php if (get_sub_field('title')) : ?>
+                                            <div class="promo-slider__wrapper-1">
+                                                <h2 class="promo-slider__title">
+                                                    <span><?= esc_html(get_sub_field('title')); ?></span>
+                                                </h2>
+                                            </div>
+                                        <?php endif; ?>
+                                        <?php if (get_sub_field('description')) : ?>
+                                        <div class="promo-slider__wrapper-2">
+                                            <p class="promo-slider__subtitle"><?= esc_html(get_sub_field('description')); ?></p>
+                                        </div>
+                                        <?php endif; ?>
+                                        <?php if (get_sub_field('button')) : ?>
+                                            <div class="promo-slider__wrapper-3">
+                                                <a class="button promo-slider__button button--primary" href="<?= esc_url(get_sub_field('button')['url']); ?>">
+                                                    <?= esc_html(get_sub_field('button')['title']); ?>
+                                                </a>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            <?php endwhile; ?>
         </div>
 
-        <div class="promo-slider__item promo-slider__item--style-1">
-            <picture>
-                <img class="img--bg" src="<?= AAA_IMG_DIR . 'slide.png' ?>" alt="img" />
-            </picture>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="align-container">
-                            <div class="align-container__item">
-                                <div class="promo-slider__wrapper-1">
-                                    <h2 class="promo-slider__title">
-                                        <span>Empowering African Arts</span>
-                                    </h2>
-                                </div>
-                                <div class="promo-slider__wrapper-2">
-                                    <p class="promo-slider__subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, aliquid!</p>
-                                </div>
-                                <div class="promo-slider__wrapper-3">
-                                    <a class="button promo-slider__button button--primary" href="http://localhost/artistaidafrica/introducing-artistaid-africa-empowering-communities-through-art/">Discover</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <ul class="promo-socials">
+            <li class="promo-socials__item">
+                <a class="promo-socials__link" href="#">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="promo-socials__item">
+                <a class="promo-socials__link" href="#">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="promo-socials__item">
+                <a class="promo-socials__link" href="#">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+
+        <div class="promo-pannel-block">
+            <div class="promo-pannel">
+                <a class="anchor promo-pannel__anchor" href="#about">
+                    <span>Scroll Down</span>
+                </a>
+                <div class="promo-pannel__phones">
+                    <p class="promo-pannel__title">Phone number</p>
+                    <a class="promo-pannel__link" href="tel:+233308092057">+233 30 80 92 057</a>
+                </div>
+                <div class="promo-pannel__email">
+                    <p class="promo-pannel__title">Email</p>
+                    <a class="promo-pannel__link" href="mailto:artistaidafrica@gmail.com">artistaidafrica@gmail.com</a>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- promo socials start-->
-    <ul class="promo-socials">
-        <li class="promo-socials__item">
-            <a class="promo-socials__link" href="#">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-        </li>
-        <li class="promo-socials__item">
-            <a class="promo-socials__link" href="#">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-        </li>
-        <li class="promo-socials__item">
-            <a class="promo-socials__link" href="#">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
-        </li>
-    </ul>
-    <!-- promo socials end-->
 
-    <!-- promo pannel start-->
-    <div class="promo-pannel-block">
-        <div class="promo-pannel">
-            <a class="anchor promo-pannel__anchor" href="#about">
-                <span>Scroll Down</span>
-            </a>
-            <div class="promo-pannel__phones">
-                <p class="promo-pannel__title">Phone numbers</p>
-                <a class="promo-pannel__link" href="tel:+233308092057">+233 30 80 92 057</a>
-            </div>
-            <div class="promo-pannel__email">
-                <p class="promo-pannel__title">Email</p>
-                <a class="promo-pannel__link" href="mailto:artistaidafrica@gmail.com">artistaidafrica@gmail.com</a>
+        <div class="slider__nav slider__nav--promo">
+            <div class="promo-slider__count"></div>
+            <div class="slider__arrows">
+                <div class="slider__prev">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                </div>
+                <div class="slider__next">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- promo pannel end-->
-
-    <!-- slider nav start-->
-    <div class="slider__nav slider__nav--promo">
-        <div class="promo-slider__count"></div>
-        <div class="slider__arrows">
-            <div class="slider__prev">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            </div>
-            <div class="slider__next">
-                <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            </div>
-        </div>
-    </div>
-    <!-- slider nav end-->
-</section>
+    </section>
+<?php endif; ?>
 <!-- promo end-->
 
 <!-- about us start-->
