@@ -7,8 +7,9 @@
     <div class="promo-slider">
         <div class="promo-slider__item promo-slider__item--style-1">
             <picture>
-                <img class="img--bg" src="<?= AAA_IMG_DIR . 'promo_2.png' ?>" alt="img" />
+                <img class="img--bg" src="<?= AAA_IMG_DIR . 'slide.png' ?>" alt="img" />
             </picture>
+
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -21,6 +22,33 @@
                                 </div>
                                 <div class="promo-slider__wrapper-2">
                                     <p class="promo-slider__subtitle">ArtistAid Africa uses the transformative power of art to empower artists, inspire social change, and promote sustainable development across the continent.</p>
+                                </div>
+                                <div class="promo-slider__wrapper-3">
+                                    <a class="button promo-slider__button button--primary" href="http://localhost/artistaidafrica/introducing-artistaid-africa-empowering-communities-through-art/">Discover</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="promo-slider__item promo-slider__item--style-1">
+            <picture>
+                <img class="img--bg" src="<?= AAA_IMG_DIR . 'slide.png' ?>" alt="img" />
+            </picture>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="align-container">
+                            <div class="align-container__item">
+                                <div class="promo-slider__wrapper-1">
+                                    <h2 class="promo-slider__title">
+                                        <span>Empowering African Arts</span>
+                                    </h2>
+                                </div>
+                                <div class="promo-slider__wrapper-2">
+                                    <p class="promo-slider__subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, aliquid!</p>
                                 </div>
                                 <div class="promo-slider__wrapper-3">
                                     <a class="button promo-slider__button button--primary" href="http://localhost/artistaidafrica/introducing-artistaid-africa-empowering-communities-through-art/">Discover</a>
@@ -71,7 +99,7 @@
     <!-- promo pannel end-->
 
     <!-- slider nav start-->
-    <!-- <div class="slider__nav slider__nav--promo">
+    <div class="slider__nav slider__nav--promo">
         <div class="promo-slider__count"></div>
         <div class="slider__arrows">
             <div class="slider__prev">
@@ -81,7 +109,7 @@
                 <i class="fa fa-chevron-right" aria-hidden="true"></i>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- slider nav end-->
 </section>
 <!-- promo end-->
@@ -100,7 +128,7 @@
 			</div>
 			<div class="col-lg-6 col-xl-5 offset-xl-1">
 				<div class="info-box">
-                    <img class="img--bg" src="<?= AAA_IMG_DIR . 'Home_about.png' ?>" alt="img" />
+                    <img class="img--bg" src="<?= AAA_IMG_DIR . 'about.png' ?>" alt="img" />
 				</div>
 			</div>
 		</div>
@@ -170,34 +198,26 @@
 <!-- section end-->
 
 <!-- section start-->
-<!-- <section class="section no-padding-top no-padding-bottom">
-    <div class="row no-gutters">
-        <div class="col-xl-6">
-            <div class="action-block">
-                <div class="action-block__inner">
-                    <img class="img--bg" src="<?= AAA_IMG_DIR . 'action-block_1.jpg' ?>" alt="img" />
-                    <h3 class="action-block__title">Our news</h3>
-                    <p class="action-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ad totam optio minus id fugiat, mollitia eligendi atque dolorum distinctio, minima iusto in fugit esse.</p>
-                    <a class="action-block__link button button--primary" href="http://localhost/artistaidafrica/category/news/">All news</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-6">
-            <div class="action-block">
-                <div class="action-block__inner">
-                    <img class="img--bg" src="<?= AAA_IMG_DIR . 'action-block_2.jpg' ?>" alt="img" />
-                    <h3 class="action-block__title">Our events</h3>
-                    <p class="action-block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ratione eligendi dolor nemo nulla reprehenderit, in itaque, exercitationem officia minima eveniet, a harum possimus consectetur.</p>
-                    <a class="action-block__link button button--primary" href="http://localhost/artistaidafrica/category/events/">All events</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
+<section class="section action-section">
+	<div class="jarallax">
+		<picture>
+            <img class="jarallax-img" src="<?= AAA_IMG_DIR . 'hands.png' ?>" alt="img" />
+		</picture>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center">
+				<h2 class="action-section__title">Any information?</h2>
+				<p class="action-section__text">Have questions or want to learn more about ArtistAid Africa? We're here to help. Reach out to us for partnership opportunities, donations, or general inquiries, and let's work together to empower artists and communities through art.</p>
+                <a class="action-section__button button button--primary" href="http://localhost/artistaidafrica/contact/">Contact Us</a>
+			</div>
+		</div>
+	</div>
+</section>
 <!-- section end-->
 
 <!-- testimonials style-1 start-->
-<!-- <section class="section testimonials">
+<section class="section testimonials">
 	<div class="container">
 		<div class="row align-items-end margin-bottom">
 			<div class="col-lg-8 col-xl-7 offset-xl-1">
@@ -249,26 +269,7 @@
 			</div>
 		</div>
 	</div>
-</section> -->
-<!-- testimonials style-1 end-->
-
-<!-- section start-->
-<section class="section action-section">
-	<div class="jarallax">
-		<picture>
-            <img class="jarallax-img" src="<?= AAA_IMG_DIR . 'hands.png' ?>" alt="img" />
-		</picture>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-12 text-center">
-				<h2 class="action-section__title">Any information?</h2>
-				<p class="action-section__text">Have questions or want to learn more about ArtistAid Africa? We're here to help. Reach out to us for partnership opportunities, donations, or general inquiries, and let's work together to empower artists and communities through art.</p>
-                <a class="action-section__button button button--primary" href="http://localhost/artistaidafrica/contact/">Contact Us</a>
-			</div>
-		</div>
-	</div>
 </section>
-<!-- section end-->
+<!-- testimonials style-1 end-->
 
 <?php get_footer() ?>

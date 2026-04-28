@@ -6,7 +6,7 @@
 
 <!-- donors inner start-->
 <section class="section text-section">
-    <img class="donors-inner__bg" src="<?= AAA_IMG_DIR . 'donors_inner.png' ?>" alt="img" />
+    <img class="donors-inner__bg" src="<?= AAA_IMG_DIR . 'paints.png' ?>" alt="img" />
 	<div class="container">
 		<div class="row margin-bottom">
 			<div class="col-12">

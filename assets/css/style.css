@@ -14,3 +14,7 @@
 .acf-map img {
    max-width: inherit !important;
 }
+
+.slider__next:hover, .slider__prev:hover {
+    color: #fff;
+}

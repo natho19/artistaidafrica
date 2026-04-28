@@ -1,7 +1,7 @@
 <section class="promo-primary">
     <picture>
-        <source srcset="<?= AAA_IMG_DIR . '2000x750.png' ?>" media="(min-width: 992px)" />
-        <img class="img--bg" src="<?= AAA_IMG_DIR . '2000x750.png' ?>" alt="img" />
+        <source srcset="<?= AAA_IMG_DIR . 'banner.png' ?>" media="(min-width: 992px)" />
+        <img class="img--bg" src="<?= AAA_IMG_DIR . 'banner.png' ?>" alt="img" />
     </picture>
     <div class="container">
         <div class="row">
