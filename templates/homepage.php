@@ -100,7 +100,7 @@
 			</div>
 			<div class="col-lg-6 col-xl-5 offset-xl-1">
 				<div class="info-box">
-                    <img class="img--bg" src="<?= AAA_IMG_DIR . 'about-us-2.jpg' ?>" alt="img" />
+                    <img class="img--bg" src="<?= AAA_IMG_DIR . 'Home_about.png' ?>" alt="img" />
 				</div>
 			</div>
 		</div>
@@ -122,10 +122,10 @@
 			<div class="col-6 col-md-4 col-lg-3">
 				<div class="icon-item">
 					<div class="icon-item__img">
-                        <img src="<?= AAA_IMG_DIR . 'svg/icons_3/2_charity.svg' ?>" alt="icon" />
+                        <img src="<?= AAA_IMG_DIR . 'svg/icons_4/3_earth.svg' ?>" alt="icon" />
                     </div>
 					<div class="icon-item__text">
-						<p>Water Delivery</p>
+						<p>We Create</p>
 					</div>
 				</div>
 			</div>
@@ -145,7 +145,7 @@
                         <img src="<?= AAA_IMG_DIR . 'svg/icons_3/2_love.svg' ?>" alt="icon" />
                     </div>
 					<div class="icon-item__text">
-						<p>New Clothes</p>
+						<p>We Support</p>
 					</div>
 				</div>
 			</div>
@@ -155,7 +155,7 @@
                         <img src="<?= AAA_IMG_DIR . 'svg/icons_3/2_money_hand.svg' ?>" alt="icon" />
 					</div>
 					<div class="icon-item__text">
-						<p>Fresh Food</p>
+						<p>We Impact</p>
 					</div>
 				</div>
 			</div>
@@ -256,8 +256,7 @@
 <section class="section action-section">
 	<div class="jarallax">
 		<picture>
-			<source srcset="<?= AAA_IMG_DIR . 'counter.jpg' ?> " media="(min-width: 992px)" />
-            <img class="jarallax-img" src="<?= AAA_IMG_DIR . 'counter.jpg' ?>" alt="img" />
+            <img class="jarallax-img" src="<?= AAA_IMG_DIR . 'hands.png' ?>" alt="img" />
 		</picture>
 	</div>
 	<div class="container">
