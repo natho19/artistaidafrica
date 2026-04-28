@@ -103,18 +103,28 @@
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-6">
-				<div class="heading heading--primary">
-					<h2 class="heading__title"><span>About Artist Aid Africa</span></h2>
-				</div>
-                <p>ArtistAid Africa is a nonprofit organization dedicated to empowering African artists and communities through the transformative power of art. Based in Ghana, we use creativity as a tool for social change, cultural preservation, and sustainable development.</p>
-                <p>By providing training, mentorship, and access to resources and platforms, we support artists while addressing key societal challenges such as education, gender equality, human rights, and environmental sustainability.</p>
-                <a class="button button--primary" href="http://localhost/artistaidafrica/about/">More About</a>
+                <?php if (get_field('about_title')) : ?>
+                    <div class="heading heading--primary">
+                        <h2 class="heading__title"><span><?= esc_html(get_field('about_title')); ?></span></h2>
+                    </div>
+                <?php endif; ?>
+
+                <?= esc_html(get_field('about_description')); ?> ?>
+
+                <?php if (get_field('about_link')) : ?>
+                    <a class="button button--primary" href="<?= esc_url(get_field('about_link')); ?>"><?= esc_html(get_field('about_link')); ?></a>
+                <?php endif; ?>
 			</div>
-			<div class="col-lg-6 col-xl-5 offset-xl-1">
-				<div class="info-box">
-                    <img class="img--bg" src="<?= AAA_IMG_DIR . 'about.png' ?>" alt="img" />
-				</div>
-			</div>
+
+            <?php 
+            $about_image = get_field('about_image'); 
+            if (!empty($about_image)) : ?>
+                <div class="col-lg-6 col-xl-5 offset-xl-1">
+                    <div class="info-box">
+                        <img class="img--bg" src="<?= esc_url($about_image['url']); ?>" alt="<?= esc_attr($about_image['alt']); ?>" />
+                    </div>
+                </div>
+            <?php endif; ?>
 		</div>
 	</div>
 </section>

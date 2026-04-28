@@ -18,3 +18,7 @@
 .slider__next:hover, .slider__prev:hover {
     color: #fff;
 }
+
+.heading__title {
+    letter-spacing: inherit;
+}
