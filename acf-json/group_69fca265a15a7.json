@@ -1,11 +1,47 @@
 {
-    "key": "group_69f0d46a53af3",
-    "title": "Slider",
+    "key": "group_69fca265a15a7",
+    "title": "What we do",
     "fields": [
         {
-            "key": "field_69f0d46b4b79d",
-            "label": "Slides",
-            "name": "slides",
+            "key": "field_69fca265a5330",
+            "label": "Title",
+            "name": "what_we_do_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_69fca265a8a63",
+            "label": "Link",
+            "name": "what_we_do_link",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_69fca369b6eb5",
+            "label": "What we do",
+            "name": "what_we_do",
             "aria-label": "",
             "type": "repeater",
             "instructions": "",
@@ -25,9 +61,9 @@
             "rows_per_page": 20,
             "sub_fields": [
                 {
-                    "key": "field_69f0d49f4b79e",
-                    "label": "Background",
-                    "name": "background",
+                    "key": "field_69fca398b6eb6",
+                    "label": "Illustration",
+                    "name": "illustration",
                     "aria-label": "",
                     "type": "image",
                     "instructions": "",
@@ -47,13 +83,13 @@
                     "max_height": "",
                     "max_size": "",
                     "mime_types": "",
-                    "preview_size": "medium",
-                    "parent_repeater": "field_69f0d46b4b79d"
+                    "preview_size": "thumbnail",
+                    "parent_repeater": "field_69fca369b6eb5"
                 },
                 {
-                    "key": "field_69f0d4e24b79f",
-                    "label": "Title",
-                    "name": "title",
+                    "key": "field_69fca3c7b6eb7",
+                    "label": "Description",
+                    "name": "description",
                     "aria-label": "",
                     "type": "text",
                     "instructions": "",
@@ -69,45 +105,7 @@
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
-                    "parent_repeater": "field_69f0d46b4b79d"
-                },
-                {
-                    "key": "field_69f0d4f14b7a0",
-                    "label": "Description",
-                    "name": "description",
-                    "aria-label": "",
-                    "type": "textarea",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "maxlength": "",
-                    "rows": 5,
-                    "placeholder": "",
-                    "new_lines": "",
-                    "parent_repeater": "field_69f0d46b4b79d"
-                },
-                {
-                    "key": "field_69f0d50b4b7a1",
-                    "label": "Link",
-                    "name": "link",
-                    "aria-label": "",
-                    "type": "link",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "return_format": "array",
-                    "parent_repeater": "field_69f0d46b4b79d"
+                    "parent_repeater": "field_69fca369b6eb5"
                 }
             ]
         }
@@ -121,7 +119,7 @@
             }
         ]
     ],
-    "menu_order": 0,
+    "menu_order": 1,
     "position": "normal",
     "style": "default",
     "label_placement": "top",
@@ -130,5 +128,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1778164432
+    "modified": 1778164704
 }

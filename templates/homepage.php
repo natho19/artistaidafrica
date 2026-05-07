@@ -33,10 +33,10 @@
                                             <p class="promo-slider__subtitle"><?= esc_html(get_sub_field('description')); ?></p>
                                         </div>
                                         <?php endif; ?>
-                                        <?php if (get_sub_field('button')) : ?>
+                                        <?php if (get_sub_field('link')) : ?>
                                             <div class="promo-slider__wrapper-3">
-                                                <a class="button promo-slider__button button--primary" href="<?= esc_url(get_sub_field('button')['url']); ?>">
-                                                    <?= esc_html(get_sub_field('button')['title']); ?>
+                                                <a class="button promo-slider__button button--primary" href="<?= esc_url(get_sub_field('link')['url']); ?>">
+                                                    <?= esc_html(get_sub_field('link')['title']); ?>
                                                 </a>
                                             </div>
                                         <?php endif; ?>
@@ -135,60 +135,48 @@
 <!-- section start-->
 <section class="section background--brown">
 	<div class="container">
-		<div class="row margin-bottom">
-			<div class="col-12">
-				<div class="heading heading--primary heading--center">
-					<h2 class="heading__title"><span>What we do</span></h2>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-6 col-md-4 col-lg-3">
-				<div class="icon-item">
-					<div class="icon-item__img">
-                        <img src="<?= AAA_IMG_DIR . 'svg/icons_4/3_earth.svg' ?>" alt="icon" />
+        <?php if (get_field('what_we_do_title')) : ?>
+            <div class="row margin-bottom">
+                <div class="col-12">
+                    <div class="heading heading--primary heading--center">
+                        <h2 class="heading__title"><span><?= esc_html(get_field('what_we_do_title')); ?></span></h2>
                     </div>
-					<div class="icon-item__text">
-						<p>We Create</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-6 col-md-4 col-lg-3">
-				<div class="icon-item">
-					<div class="icon-item__img">
-                        <img src="<?= AAA_IMG_DIR . 'svg/icons_3/2_child.svg' ?>" alt="icon" />
-                    </div>
-					<div class="icon-item__text">
-						<p>We Care About</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-6 col-md-4 col-lg-3">
-				<div class="icon-item">
-					<div class="icon-item__img">
-                        <img src="<?= AAA_IMG_DIR . 'svg/icons_3/2_love.svg' ?>" alt="icon" />
-                    </div>
-					<div class="icon-item__text">
-						<p>We Support</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-6 col-md-4 col-lg-3">
-				<div class="icon-item">
-					<div class="icon-item__img">
-                        <img src="<?= AAA_IMG_DIR . 'svg/icons_3/2_money_hand.svg' ?>" alt="icon" />
-					</div>
-					<div class="icon-item__text">
-						<p>We Impact</p>
-					</div>
-				</div>
-			</div>
-		</div>
-        <div class="row text-center">
-            <div class="col-12">
-                <a class="action-block__link button button--primary" href="http://localhost/artistaidafrica/donate/">Donate</a>
+                </div>
             </div>
-        </div>
+        <?php endif; ?>
+
+        <?php if( have_rows('what_we_do') ): ?>
+            <div class="row">
+                <?php while( have_rows('what_we_do') ): the_row(); ?>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="icon-item">
+                            <?php 
+                            $illustration = get_sub_field('illustration');
+                            if ($illustration) : ?>
+                            <div class="icon-item__img">
+                                <img src="<?= esc_url($illustration['url']); ?>" alt="<?= esc_attr($illustration['alt']); ?>" />
+                            </div>
+                            <?php endif; ?>
+                            <?php if (get_sub_field('description')) : ?>
+                                <div class="icon-item__text">
+                                    <p><?= esc_html(get_sub_field('description')) ?></p>
+                                </div>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                <?php endwhile; ?>
+            </div>
+        <?php endif; ?>
+
+        <?php
+        $what_we_do_link = get_field('what_we_do_link');
+        if ($what_we_do_link) : ?>
+            <div class="row text-center">
+                <div class="col-12">
+                    <a class="action-block__link button button--primary" href="<?= esc_url($what_we_do_link['url']) ?>"><?= esc_html($what_we_do_link['title']) ?></a>
+                </div>
+            </div>
+        <?php endif; ?>
 	</div>
 </section>
 <!-- section end-->

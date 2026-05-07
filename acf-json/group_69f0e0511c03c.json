@@ -49,7 +49,7 @@
         },
         {
             "key": "field_69f0e10326856",
-            "label": "Button",
+            "label": "Link",
             "name": "home_about_link",
             "aria-label": "",
             "type": "link",
@@ -102,5 +102,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1778163521
+    "modified": 1778164409
 }
