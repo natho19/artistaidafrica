@@ -1,18 +1,18 @@
 {
-    "key": "group_69fca265a15a7",
-    "title": "What we do",
+    "key": "group_69fcac17293f1",
+    "title": "Testimonials",
     "fields": [
         {
-            "key": "field_69fca265a5330",
+            "key": "field_69fcac172d5d8",
             "label": "Title",
-            "name": "what_we_do_title",
+            "name": "testimonials_title",
             "aria-label": "",
             "type": "text",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "50",
+                "width": "",
                 "class": "",
                 "id": ""
             },
@@ -23,25 +23,9 @@
             "append": ""
         },
         {
-            "key": "field_69fca265a8a63",
-            "label": "Link",
-            "name": "what_we_do_link",
-            "aria-label": "",
-            "type": "link",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "50",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "array"
-        },
-        {
-            "key": "field_69fca369b6eb5",
-            "label": "What we do",
-            "name": "what_we_do",
+            "key": "field_69fcac1731883",
+            "label": "Testimonials",
+            "name": "testimonials",
             "aria-label": "",
             "type": "repeater",
             "instructions": "",
@@ -61,11 +45,11 @@
             "rows_per_page": 20,
             "sub_fields": [
                 {
-                    "key": "field_69fca398b6eb6",
-                    "label": "Illustration",
-                    "name": "illustration",
+                    "key": "field_69fcac1735a0a",
+                    "label": "Testimonial",
+                    "name": "testimonial",
                     "aria-label": "",
-                    "type": "image",
+                    "type": "textarea",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -74,22 +58,17 @@
                         "class": "",
                         "id": ""
                     },
-                    "return_format": "array",
-                    "library": "all",
-                    "min_width": "",
-                    "min_height": "",
-                    "min_size": "",
-                    "max_width": "",
-                    "max_height": "",
-                    "max_size": "",
-                    "mime_types": "",
-                    "preview_size": "thumbnail",
-                    "parent_repeater": "field_69fca369b6eb5"
+                    "default_value": "",
+                    "maxlength": "",
+                    "rows": 5,
+                    "placeholder": "",
+                    "new_lines": "",
+                    "parent_repeater": "field_69fcac1731883"
                 },
                 {
-                    "key": "field_69fca3c7b6eb7",
-                    "label": "Description",
-                    "name": "description",
+                    "key": "field_69fcac7d6bad7",
+                    "label": "Author",
+                    "name": "author",
                     "aria-label": "",
                     "type": "text",
                     "instructions": "",
@@ -105,7 +84,7 @@
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
-                    "parent_repeater": "field_69fca369b6eb5"
+                    "parent_repeater": "field_69fcac1731883"
                 }
             ]
         }
@@ -119,7 +98,7 @@
             }
         ]
     ],
-    "menu_order": 2,
+    "menu_order": 4,
     "position": "normal",
     "style": "default",
     "label_placement": "top",
@@ -128,5 +107,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1778166641
+    "modified": 1778166966
 }
