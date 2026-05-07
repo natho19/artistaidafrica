@@ -5,7 +5,7 @@
         {
             "key": "field_69f0e0512635a",
             "label": "Image",
-            "name": "about_image",
+            "name": "home_about_image",
             "aria-label": "",
             "type": "image",
             "instructions": "",
@@ -30,7 +30,7 @@
         {
             "key": "field_69f0e051294ce",
             "label": "Title",
-            "name": "about_title",
+            "name": "home_about_title",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -50,7 +50,7 @@
         {
             "key": "field_69f0e10326856",
             "label": "Button",
-            "name": "about_link",
+            "name": "home_about_link",
             "aria-label": "",
             "type": "link",
             "instructions": "",
@@ -66,7 +66,7 @@
         {
             "key": "field_69f0e0512b5a2",
             "label": "Description",
-            "name": "about_description",
+            "name": "home_about_description",
             "aria-label": "",
             "type": "textarea",
             "instructions": "",
@@ -102,5 +102,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1777394006
+    "modified": 1778163521
 }

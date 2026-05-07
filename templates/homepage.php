@@ -103,21 +103,23 @@
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-6">
-                <?php if (get_field('about_title')) : ?>
+                <?php if (get_field('home_about_title')) : ?>
                     <div class="heading heading--primary">
-                        <h2 class="heading__title"><span><?= esc_html(get_field('about_title')); ?></span></h2>
+                        <h2 class="heading__title"><span><?= esc_html(get_field('home_about_title')); ?></span></h2>
                     </div>
                 <?php endif; ?>
 
-                <?= esc_html(get_field('about_description')); ?> ?>
+                <?= wp_kses_post(get_field('home_about_description')); ?>
 
-                <?php if (get_field('about_link')) : ?>
-                    <a class="button button--primary" href="<?= esc_url(get_field('about_link')); ?>"><?= esc_html(get_field('about_link')); ?></a>
+                <?php
+                $about_link = get_field('home_about_link');
+                if ($about_link) : ?>
+                    <a class="button button--primary" href="<?= esc_url($about_link['url']) ?>"><?= esc_html($about_link['title']) ?></a>
                 <?php endif; ?>
 			</div>
 
             <?php 
-            $about_image = get_field('about_image'); 
+            $about_image = get_field('home_about_image'); 
             if (!empty($about_image)) : ?>
                 <div class="col-lg-6 col-xl-5 offset-xl-1">
                     <div class="info-box">
